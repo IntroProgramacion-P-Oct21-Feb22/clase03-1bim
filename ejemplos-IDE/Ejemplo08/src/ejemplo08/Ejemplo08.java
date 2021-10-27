@@ -3,25 +3,25 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplo07;
+package ejemplo08;
 
 /**
  *
  * @author reroes
  */
-public class Ejemplo07 {
+public class Ejemplo08 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Ejemplo de operador lógico AND
-        
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
-        
+        // Ejemplos
+        boolean valorA = 10 < 10;
+        boolean valorB = 11 >= 10;
+        boolean valorC = valorA && valorB;
+
+        System.out.println(valorC);
+
     }
-    
+
 }

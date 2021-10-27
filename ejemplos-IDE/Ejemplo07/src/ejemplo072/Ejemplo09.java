@@ -3,24 +3,24 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplo07;
+package ejemplo072;
 
 /**
  *
  * @author reroes
  */
-public class Ejemplo07 {
+public class Ejemplo09 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Ejemplo de operador lógico AND
+        // Ejemplo de operador lógico NEGACIÓN
+        boolean a = !true;
+        boolean c = !false;
         
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
+        System.out.println(a); // negación
+        System.out.println(c); // negación
         
     }
     

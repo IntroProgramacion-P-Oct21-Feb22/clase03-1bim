@@ -3,25 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplo07;
+package ejemplo08;
 
 /**
  *
  * @author reroes
  */
-public class Ejemplo07 {
+public class Ejemplo12 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Ejemplo de operador lógico AND
+        // Ejemplo, expresión: not (a == c or b > d) and (c > b + d * 2)
+        int a = 20;
+        int b = 1;
+        int c = 9;
+        int d = 2;
         
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
-        
+        boolean resultado = !(a == c || b > d)  && (c > b + d * 2);
+        System.out.println(resultado);
+
     }
-    
+
 }

@@ -9,18 +9,18 @@ package ejemplo07;
  *
  * @author reroes
  */
-public class Ejemplo07 {
+public class Ejemplo08 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // Ejemplo de operador lógico AND
+        // Ejemplo de operador lógico OR
         
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
+        System.out.println(true || true);
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
         
     }
     

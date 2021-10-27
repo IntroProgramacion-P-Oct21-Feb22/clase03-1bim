@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ejemplo07;
+package ejemplo072;
 
 /**
  *
@@ -16,11 +16,14 @@ public class Ejemplo07 {
      */
     public static void main(String[] args) {
         // Ejemplo de operador lógico AND
-        
-        System.out.println(true && true);
-        System.out.println(true && false);
-        System.out.println(false && true);
-        System.out.println(false && false);
+        boolean a = true && true;
+        boolean b = true && false;
+        boolean c = false && true;
+        boolean d = false && false;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
         
     }
     
